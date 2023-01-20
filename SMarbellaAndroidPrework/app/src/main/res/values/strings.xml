@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">SMarbellaAndroidPrework</string>
+    <string name="intro_text">Hello! Welcome to the .</string>
+    <string name="button_text">Say hello!</string>
 </resources>
