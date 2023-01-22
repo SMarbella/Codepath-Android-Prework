@@ -1,5 +1,8 @@
 <resources>
-    <string name="app_name">SMarbellaAndroidPrework</string>
-    <string name="intro_text">Hello! Welcome to the .</string>
-    <string name="button_text">Say hello!</string>
+    <string name="app_name">Greeting App</string>
+    <string name="intro_text">Hello! My name is Stephanie. Welcome to the Greeting App. Press the buttons.</string>
+    <string name="hello_text">Say hello!</string>
+
+    <string name="questionmark">"?"</string>
+
 </resources>
