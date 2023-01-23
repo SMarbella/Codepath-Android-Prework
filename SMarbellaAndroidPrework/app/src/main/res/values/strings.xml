@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Greeting App</string>
-    <string name="intro_text">Hello! My name is Stephanie. Welcome to the Greeting App. Press the buttons.</string>
+    <string name="intro_text">Hello! My name is Stephanie. Welcome to the Greeting App. Each button tells you a little bit about me.</string>
     <string name="hello_text">Say hello!</string>
 
     <string name="questionmark">"?"</string>

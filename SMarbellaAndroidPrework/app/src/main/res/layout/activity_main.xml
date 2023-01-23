@@ -59,6 +59,93 @@
         app:layout_constraintVertical_bias="0.071" />
 
 
+    <ImageButton
+        android:id="@+id/schoolButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="80dp"
+        android:background="@drawable/round_button"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/foodButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/helloButton"
+        app:srcCompat="@drawable/school" />
+
+    <ImageButton
+        android:id="@+id/foodButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/round_button"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/borderBottom"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/helloButton"
+        app:srcCompat="@drawable/food" />
+
+    <ImageButton
+        android:id="@+id/musicButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/round_button"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/workButton"
+        app:layout_constraintStart_toEndOf="@+id/schoolButton"
+        app:layout_constraintTop_toBottomOf="@+id/helloButton"
+        app:srcCompat="@drawable/music_note" />
+
+    <ImageButton
+        android:id="@+id/clothesButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/round_button"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/workButton"
+        app:layout_constraintStart_toEndOf="@+id/musicButton"
+        app:layout_constraintTop_toBottomOf="@+id/helloButton"
+        app:srcCompat="@drawable/clothes" />
+
+    <ImageButton
+        android:id="@+id/workButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/round_button"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/borderBottom"
+        app:layout_constraintStart_toEndOf="@+id/foodButton"
+        app:layout_constraintTop_toBottomOf="@+id/helloButton"
+        app:srcCompat="@drawable/work" />
+
+    <ImageButton
+        android:id="@+id/hobbiesButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/round_button"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/borderBottom"
+        app:layout_constraintStart_toEndOf="@+id/workButton"
+        app:layout_constraintTop_toBottomOf="@+id/helloButton"
+        app:srcCompat="@drawable/brush" />
+
+    <ImageButton
+        android:id="@+id/sportsButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/round_button"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/borderBottom"
+        app:layout_constraintStart_toEndOf="@+id/hobbiesButton"
+        app:layout_constraintTop_toBottomOf="@+id/helloButton"
+        app:srcCompat="@drawable/sports" />
 
     <ImageView
         android:id="@+id/borderBottom"
@@ -69,17 +156,4 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/border" />
-
-    <ImageButton
-        android:id="@+id/foodButton"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:background="@drawable/round_button"
-        android:scaleType="centerInside"
-        android:layout_marginTop="48dp"
-        android:layout_marginLeft="50dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/helloButton"
-        app:srcCompat="@drawable/food" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
