@@ -100,11 +100,11 @@
         android:id="@+id/clothesButton"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="50dp"
+        android:layout_marginEnd="80dp"
         android:background="@drawable/round_button"
         android:scaleType="centerInside"
-        app:layout_constraintBottom_toTopOf="@+id/workButton"
-        app:layout_constraintStart_toEndOf="@+id/musicButton"
+        app:layout_constraintBottom_toTopOf="@+id/sportsButton"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/helloButton"
         app:srcCompat="@drawable/clothes" />
 
