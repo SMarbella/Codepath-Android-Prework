@@ -36,7 +36,8 @@ GIF created with ScreenToGif
 ## Notes
 
 Describe any challenges encountered while building the app.
-The challenge encountered while building the app is that I had to learn a new programming language. Since I did not learn Kotlin before, it took me time to understand it and the ways the basics of Kotlin work. Another challenge I had to face was to add buttons with image icons. It took me a while to figure out how to create a working image button that sends a toast when the user taps on it. After I figured it out, I added more buttons to expand the app and improve the UI.
+
+The challenge I encountered while building the app was that I had to learn a new programming language. Since I did not learn Kotlin before, it took me time to understand it and the ways the basics of Kotlin work. Another challenge I had to face was adding buttons with image icons. It took me a while to figure out how to create a working image button that sends a toast when the user taps on it. After I figured it out, I added extra buttons to expand the app and improve the UI.
 
 ## License
 
