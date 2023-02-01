@@ -4,7 +4,7 @@
 
 Submitted by: **Stephanie Marbella**
 
-**Greeting App** is an android app that shows an image and introductory message, and allows pressing a button to display a Toast. 
+**Greeting App** is an android app that shows an image and introductory message in the interface. There are several interactive buttons that you can click that provide information about me. The information comes in separate pop-up messages.
 
 Time spent: **15** hours spent in total
 
